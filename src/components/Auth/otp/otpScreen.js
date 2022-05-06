@@ -9,7 +9,7 @@ import emailLogo from "../../../assets/svg/email.svg";
 import Button from "@material-ui/core/Button";
 import EmailIcon from "@material-ui/icons/Email";
 import AppleIcon from "@material-ui/icons/Apple";
-import startingImg from "../../../assets/img/Login.png";
+import startingImg from "../../../assets/img/login.png";
 import { FormControl, FormLabel } from "@material-ui/core";
 import { useHistory } from "react-router-dom";
 import GoogleAuth from "../../Auth/GoogleAuth/GoogleAuth";

@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./otaScreen.module.css";
 import { connect } from "react-redux";
-import startingImg from "../../../assets/img/Login.png";
+import startingImg from "../../../assets/img/login.png";
 import { useHistory } from "react-router-dom";
 
 const OtaVerified = () => {

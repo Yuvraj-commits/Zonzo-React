@@ -1,7 +1,7 @@
 import React from "react";
 import styles from "./FacebookAuth.module.css";
 // import { facebookAppId } from "../../../config/config";
-import facebookLogo from "../../../assets/svg/facebook.svg";
+import facebookLogo from "../../../assets/img/facebook.png";
 import Button from "@material-ui/core/Button";
 import FacebookLogin from "react-facebook-login/dist/facebook-login-render-props";
 import CircularProgress from "@material-ui/core/CircularProgress";

@@ -7,7 +7,7 @@ import ArrowForwardRoundedIcon from "@material-ui/icons/ArrowForwardRounded";
 import appleLogo from "../../../assets/svg/apple.svg";
 import emailLogo from "../../../assets/svg/email.svg";
 import Button from "@material-ui/core/Button";
-import startingImg from "../../../assets/img/Login.png";
+import startingImg from "../../../assets/img/login.png";
 import { FormControl, FormLabel } from "@material-ui/core";
 import { useHistory } from "react-router-dom";
 import GoogleAuth from "../../Auth/GoogleAuth/GoogleAuth";

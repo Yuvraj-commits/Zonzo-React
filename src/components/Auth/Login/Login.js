@@ -5,7 +5,7 @@ import { connect } from "react-redux";
 import PassTextField from "../../utils/passTextField/PassTextField";
 import TextField from "@material-ui/core/TextField";
 import ArrowForwardRoundedIcon from "@material-ui/icons/ArrowForwardRounded";
-import startingImg from "../../../assets/img/Login.png";
+import startingImg from "../../../assets/img/login.png";
 import { FormControl, FormLabel } from "@material-ui/core";
 import { useHistory } from "react-router-dom";
 
