@@ -1,0 +1,14 @@
+.logo {
+  width: 23px;
+  height: 35px;
+  border-radius: 100%;
+}
+.imgContent {
+  width: 40px;
+}
+.btnRound {
+  background-color: transparent !important;
+}
+.btnRound span {
+  width: auto !important;
+}

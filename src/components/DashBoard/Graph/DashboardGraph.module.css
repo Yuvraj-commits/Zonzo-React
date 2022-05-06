@@ -1,0 +1,45 @@
+.container {
+  width: 97%;
+}
+.upperGraphCards {
+  margin: 0 -5px;
+  padding: 25px;
+  width: 100%;
+}
+
+.upperGraphCards:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.lowerGraph {
+  background: white;
+  border-radius: 8px;
+  margin-left: 18px;
+}
+.column {
+  float: left;
+  min-width: 150px;
+  width: 30%;
+  padding: 0 10px;
+}
+
+@media screen and (max-width: 600px) {
+  .column {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+  }
+}
+
+/* Style the counter cards */
+.card {
+  max-height: 150px !important;
+  cursor: pointer;
+  box-shadow: 0px 4px 12px rgba(198, 198, 198, 0.25);
+  padding: 16px;
+  text-align: center;
+  box-sizing: border-box;
+  border-radius: 8px;
+  background-color: #ffffff;
+}

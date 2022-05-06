@@ -1,0 +1,145 @@
+.container {
+  width: 100vw;
+  display: flex;
+  height: 100vh;
+  min-height: 100vh;
+  position: absolute;
+  z-index: 1002;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+  bottom: 0px;
+  overflow: hidden;
+  background-color: white;
+}
+.flexComp {
+  display: flex;
+  width: 100%;
+}
+.leftContent {
+  width: 55%;
+}
+.leftContent img {
+  width: 100%;
+  height: 100%;
+}
+
+.rightContent {
+  width: 45%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.header {
+  text-align: center;
+}
+.header h1 {
+  font-size: 30px;
+  letter-spacing: 0.9px;
+  font-family: "Montserrat", sans-serif;
+}
+.head {
+  font-size: 24px;
+  font-weight: 900;
+  letter-spacing: 1px;
+  color: #333;
+}
+.loginContainer {
+  width: 35vw;
+  max-width: 550px;
+  border-radius: 12px;
+  padding: 20px 30px;
+  height: auto;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rightContent {
+  padding: 30px 40px;
+  width: 45%;
+  border-radius: 15px;
+  display: flex;
+  flex-direction: column;
+}
+.loginHead {
+  font-size: 22px;
+  font-weight: 500;
+  align-self: flex-start;
+  color: #333;
+  padding: 10px 0px;
+}
+.textField {
+  margin: 15px 0px !important;
+  z-index: 1;
+}
+.signUp,
+.forgotPassword,
+.formControl {
+  width: 60%;
+}
+.forgotPassword {
+  text-align: right;
+}
+.signUp{
+    text-align: center;
+}
+.signUp p{
+    font-weight: 400;
+    font-family: "Montserrat",sans-serif;
+}
+.signUp p span{
+    color: #370D6F;
+    font-weight: 700;
+    cursor: pointer;
+}
+.forgotPassword p{
+    margin: 0px;
+    padding: 0px;
+    cursor: pointer;
+}
+.centerBtn {
+  margin: 0px auto;
+}
+.signIn {
+  margin: 10px 0px;
+  margin-top: 15px;
+  padding: 14px 18px;
+  font-size: 16px;
+  width: 150px;
+  letter-spacing: 2px;
+  font-weight: 500;
+  border: none;
+  letter-spacing: 0.8px;
+  border-radius: 4px;
+  outline: none;
+  color: white;
+  background: linear-gradient(91.23deg, #370D6F 0%, #6F0D6B 99.77%);
+  position: relative;
+  transition: 0.3s all;
+}
+.signIn:hover {
+  cursor: pointer;
+  transform: translateY(-1.5px);
+}
+.signIn:active {
+  cursor: pointer;
+  transform: translateY(0.5px);
+}
+
+@media only screen and (max-width: 1000px) {
+  .loginContainer {
+    width: 70vw;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .loginContainer {
+    width: 80vw;
+    padding: 15px;
+  }
+  .loginContent {
+    padding: 15px;
+  }
+}
