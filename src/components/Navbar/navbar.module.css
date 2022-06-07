@@ -36,6 +36,7 @@
 .navItems {
   display: flex;
   width: 90%;
+
   margin-left: auto;
   margin-right: auto;
   align-items: center;
@@ -50,14 +51,18 @@
   align-items: center;
   color: #fff;
   margin: 6px 0px;
-  border-radius: 4px;
   text-decoration: none;
   transition: all 0.5s;
 }
+.activeNavItem{
+border-left: solid 1px wheat;
+}
+
 .navItem p,
 .activeNavItem p {
   margin: 0px;
   margin-left: 15px;
+  
   font-size: 13px;
 }
 /* .activeNavItem p {
