@@ -46,7 +46,7 @@
 .activeNavItem {
   display: flex;
   border-bottom: 0.5px solid rgba(255, 255, 255, 0.5);
-  width: calc(90% - 50px);
+  width: calc(100% - 40px);
   padding: 12px 25px;
   align-items: center;
   color: #fff;
@@ -54,16 +54,19 @@
   text-decoration: none;
   transition: all 0.5s;
 }
-.activeNavItem{
-border-left: solid 1px wheat;
+.activeNavItem {
+  border-left: solid 3px white;
 }
 
 .navItem p,
 .activeNavItem p {
   margin: 0px;
   margin-left: 15px;
-  
-  font-size: 13px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+
 }
 /* .activeNavItem p {
     color: #370D6F;
